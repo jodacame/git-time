@@ -11,3 +11,8 @@ More information 👉 https://www.npmjs.com/package/git-hours
 ```Github Time```
 
 ![Run](/images/Run.png "Run")
+
+### Preview
+Now you have stats into your statusbar
+
+![Preview](/images/Preview.png "Preview")
