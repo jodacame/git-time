@@ -1,0 +1,53 @@
+{
+  "name": "git-time",
+  "displayName": "GitTime",
+  "description": "Statusbar for git-hours - Estimate time spent on a git repository.  ",
+  "version": "1.0.2",
+  "publisher": "jodacame",
+  "engines": {
+    "vscode": "^1.62.0"
+  },
+  "categories": [
+    "Other",
+    "Extension Packs"
+  ],
+  "icon": "images/icon.png",
+  "keywords": [
+    "git",
+    "time",
+    "statusbar",
+    "git-time",
+    "git-hours"
+  ],
+  "activationEvents": [
+    "onCommand:git-time.gitTime"
+  ],
+  "main": "./extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "git-time.gitTime",
+        "title": "Github Time"
+      }
+    ]
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "pretest": "npm run lint",
+    "test": "node ./test/runTest.js"
+  },
+  "devDependencies": {
+    "@types/glob": "^7.1.4",
+    "@types/mocha": "^9.0.0",
+    "@types/node": "14.x",
+    "@types/vscode": "^1.62.0",
+    "@vscode/test-electron": "^1.6.2",
+    "eslint": "^8.1.0",
+    "glob": "^7.1.7",
+    "mocha": "^9.1.3",
+    "typescript": "^4.4.4"
+  },
+  "dependencies": {
+    "git-hours": "^1.5.0"
+  }
+}
