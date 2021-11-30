@@ -9,3 +9,5 @@ More information 👉 https://www.npmjs.com/package/git-hours
 
 ## Enable extension
 ```Github Time```
+
+![Run](git-time/main/images/Run.png "Run")
