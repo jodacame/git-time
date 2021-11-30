@@ -2,7 +2,7 @@
   "name": "git-time",
   "displayName": "GitTime",
   "description": "Statusbar for git-hours - Estimate time spent on a git repository.  ",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "publisher": "jodacame",
   "engines": {
     "vscode": "^1.62.0"

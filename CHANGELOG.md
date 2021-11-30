@@ -8,3 +8,6 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 - Initial release
 - Fixed bug
+
+## 1.0.4
+- Added refresh on click
