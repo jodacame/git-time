@@ -2,7 +2,7 @@
   "name": "git-time",
   "displayName": "GitTime",
   "description": "Statusbar for git-hours - Estimate time spent on a git repository.  ",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "publisher": "jodacame",
   "engines": {
     "vscode": "^1.62.0"
@@ -36,6 +36,7 @@
     "pretest": "npm run lint",
     "test": "node ./test/runTest.js"
   },
+  "repository": "https://github.com/jodacame/git-time",
   "devDependencies": {
     "@types/glob": "^7.1.4",
     "@types/mocha": "^9.0.0",
